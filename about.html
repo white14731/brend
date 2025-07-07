@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/about.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="breadcrumbs">
+        <a href="index.html">Главная</a> / <a href="#">бренд</a>
+    </div>
+
+    <div class="dealer-header">
+        <h1 class="dealer-title">Официальный дилер (название бренда)</h1>
+        <div class="product-count">кол-во товара этого бренда</div>
+    </div>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="category-block">
+                <div class="category-title">категория бренда</div>
+                <ul class="category-list">
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+
+                    <div class="hidden-items" id="group1-more">
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                    </div>
+
+                    <li class="category-item"><span class="show-more" onclick="toggleItems('group1')">Показать еще</span></li>
+                </ul>
+            </div>
+
+            <div class="category-block">
+                <div class="category-title">категория бренда</div>
+                <ul class="category-list">
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+
+                    <div class="hidden-items" id="group2-more">
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                    </div>
+
+                    <li class="category-item"><span class="show-more" onclick="toggleItems('group2')">Показать еще</span></li>
+                </ul>
+            </div>
+
+            <div class="category-block">
+                <div class="category-title">категория бренда</div>
+                <ul class="category-list">
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+
+                    <div class="hidden-items" id="group3-more">
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                        <li class="category-item"><a href="#">подкатегория</a></li>
+                    </div>
+
+                    <li class="category-item"><span class="show-more" onclick="toggleItems('group3')">Показать еще</span></li>
+                </ul>
+            </div>
+
+            <div class="category-block">
+                <div class="category-title">категория бренда</div>
+                <ul class="category-list">
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                    <li class="category-item"><a href="#">подкатегория</a></li>
+                </ul>
+            </div>
+
+            <div class="certificate">
+                <div>Сертификат официального партнера</div>
+                <a href="#" class="certificate-btn">Посмотреть</a>
+            </div>
+        </div>
+
+        <!-- Основной контент -->
+        <div class="content">
+            <div class="info-block">
+                <h2 class="info-title">Немного о бренде</h2>
+                <p>Немного о бренде</p>
+            </div>
+
+            <div class="sorting">
+                <span class="sort-label">Сортировать по:</span>
+                <span class="sort-option active">По популярности</span>
+                <span class="sort-option">Цене</span>
+            </div>
+
+            <div class="products-grid">
+                <!-- Товар 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Товар 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        картинка товара
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">наименование товара</div>
+                        <div class="product-price">цена ₽</div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">В корзину</button>
+                            <button class="add-to-favorites">♥</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+</body>
+</html>
